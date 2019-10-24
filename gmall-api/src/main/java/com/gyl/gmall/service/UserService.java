@@ -1,8 +1,9 @@
-package com.gyl.gmall.user.service;
+package com.gyl.gmall.service;
 
-import com.gyl.gmall.user.bean.UmsMember;
-import com.gyl.gmall.user.bean.UmsMemberReceiveAddress;
-import org.springframework.stereotype.Service;
+
+import com.gyl.gmall.bean.UmsMember;
+import com.gyl.gmall.bean.UmsMemberReceiveAddress;
+
 
 import java.util.List;
 
@@ -13,4 +14,6 @@ public interface UserService {
     UmsMember test();
 
     List<UmsMemberReceiveAddress> getReceiveAddressesById(String memberId);
+    String User_test();
+
 }
